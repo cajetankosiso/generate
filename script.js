@@ -43,6 +43,6 @@ function generateCards() {
 generateBtn.addEventListener("click", generateCards);
 
 
-clearBtn.addEventListener("dblclick", () => {
+clearBtn.addEventListener("click", () => {
   cardContainer.innerHTML = "";
 });
